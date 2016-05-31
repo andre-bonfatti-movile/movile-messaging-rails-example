@@ -30,4 +30,7 @@ This project uses `HTTParty` gem, so make sure you run `bundle` before testing
 ### Step-by-step on how to run this project
 
 1. Download or clone this repo
-2. To get your authentication data, login on (Movile Messaging)[https://messaging.movile.com/messaging/home]
+2. Set the authentication variables on `secrets.yml`. To get your authentication data, login on [Movile Messaging](https://messaging.movile.com/messaging/home)
+3. run `bundle` on your project folder
+4. run `rake db:migrate`
+5. run your server: `rails server`
