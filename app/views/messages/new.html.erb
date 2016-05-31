@@ -1,0 +1,7 @@
+<%= form_for @message do |f| %>
+  <%= f.label :text, 'Destination Number' %>
+  <%= f.text_field :destination %>
+  <%= f.label :text, 'Text' %>
+  <%= f.text_field :text %>
+  <%= f.submit 'Send message'%>
+<% end %>
